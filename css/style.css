@@ -1,0 +1,51 @@
+/* Style personnalisé de l'utilisateur. Fonctionne uniquement si cette stylesheet est appelée en dernier (dernière stylesheet dans la head) */
+
+
+
+/* Body */
+
+body 
+{
+    font-family:"ubuntulight";
+    background-color: rgb(244, 243, 242);
+}
+
+/* h1 */ 
+
+h1
+{
+    color:skyblue;
+    background-color: white;
+    box-shadow: 0px 1px 1px 0px #dfdfdf;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/* Paragraphes p */
+
+.paragraphe
+{
+    color:#333333;
+    background-color: white;
+    box-shadow: 0px 1px 1px 0px #dfdfdf;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+/* Typographies */
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu-l-webfont.eot');
+    src: url('../fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu-l-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('../fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('../fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
